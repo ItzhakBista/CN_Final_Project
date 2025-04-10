@@ -9,8 +9,8 @@ Before running the script, ensure that you have the following installed:
 
 - **Python 3.x**
 - **Required Python packages**:
-- Python 3.8+
-- Required Python packages:
+-- Python 3.8+
+-- Required Python packages:
 - scapy==2.5.0
 - matplotlib==3.7.1
 - numpy==1.24.3
