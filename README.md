@@ -34,6 +34,12 @@ pip install scapy matplotlib numpy scikit-learn
 ├── analyze.py                     # Main Python script
 └── README.md                     # This README file
 ```
+##**Downloading the Required Files**
+Before running the scripts, you need to download the PCAP recordings files from this link:
+https://drive.google.com/drive/folders/1_gGWACKX58w7qdsyALYTz-VbEYVUW5oU?usp=sharing
+
+After downloading, place the files in the same directory as our project.
+
 ## Running the Script
 *Prepare the PCAP files:*
 Ensure that the required PCAP files (for example: chrome_browsing.pcap, edge_browsing.pcap, etc.) are present in the project directory. These files contain the network traffic data to be analyzed.
@@ -45,7 +51,7 @@ python analyze.py
 ```
 This will process the PCAP files, generate graphs for packet size distribution, TCP window sizes, inter-arrival times, and more. It will also simulate an attacker using clustering and generate a confusion matrix for classification.
 
-*Expected Outputs:*
+**Expected Outputs:**
 The program will generate:
 - Graphs in the images/ folder:
 - packet_size_distribution.png
