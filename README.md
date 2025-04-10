@@ -35,7 +35,7 @@ pip install scapy matplotlib numpy scikit-learn imbalanced-learn
 ├── analyze.py                     # Main Python script
 └── README.md                     # This README file
 ```
-##**Downloading the Required Files**
+## **Downloading the Required Files**
 Before running the scripts, you need to download the PCAP recordings files from this link:
 https://drive.google.com/drive/folders/1_gGWACKX58w7qdsyALYTz-VbEYVUW5oU?usp=sharing
 
